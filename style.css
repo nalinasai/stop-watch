@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background: url("https://onetreeplanted.org/cdn/shop/articles/nature_facts_1788x.jpg?v=1705008496");
+
+}
+.container{
+    text-align: center;
+    background-color: black;
+    height: 40%;
+    width: 45%;
+    opacity: 0.65;
+    color: white;
+    padding: 20px;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    border-radius: 12px;
+    background: cover;
+    
+}
+
+.container h1{
+    letter-spacing: 2px;
+    text-shadow: 2px 1px 2px yellow;
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+
+}
+
+.hms{
+    font-size: 35px;
+    letter-spacing: 2px;
+    margin-top: 40px;
+}
+
+#hour,#minute,#second{
+    letter-spacing: 5px;
+}
+
+.ssr{
+    margin-top: 40px;
+}
+
+.ssr button{
+    margin-left: 10px;
+    height:40px;
+    width: 80px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size:18px;
+
+}
